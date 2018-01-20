@@ -25,7 +25,7 @@ $.ajax({
 		}
 	}
 })
-$.getScript("http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js",
+$.getScript("https://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js",
 	function(){
     getFullweather(remote_ip_info.city);
 });
